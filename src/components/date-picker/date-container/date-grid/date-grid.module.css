@@ -1,0 +1,27 @@
+.date-grid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    align-content: center;
+    justify-items: center;
+    font-weight: 600;
+}
+
+.button {
+    font-size: 1.2rem;
+    padding: 0.2rem;
+    width: 2ch;
+    height: 2ch;
+    line-height: 2ch;
+} 
+
+.button:hover {
+    background-color: #70707070;
+    border-radius: 50%;
+}
+
+.notCurrent {
+    color: #707070;
+}

@@ -1,0 +1,9 @@
+.monthContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 1rem;
+}
+
+.datesContainer {
+    flex-grow: 1;
+}
